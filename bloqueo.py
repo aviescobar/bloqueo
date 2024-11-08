@@ -29,3 +29,4 @@ def start_client():
       desbloquear_entrada()
 
 if __name__ == "_main_":
+    start_client()
