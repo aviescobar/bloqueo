@@ -17,4 +17,5 @@ def desbloquear_entrada():
 
 def start_client():
    client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+  # Usar la IP correcta del servidor (en este caso 192.168.0.163)
     
