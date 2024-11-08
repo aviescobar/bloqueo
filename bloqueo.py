@@ -16,4 +16,5 @@ def desbloquear_entrada():
     mouse.move(500, 500)       # Mueve el mouse a una posición accesible (ejemplo, al centro)
 
 def start_client():
+   client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     
