@@ -26,3 +26,4 @@ def start_client():
     print(f"Comando recibido: {comando}")
 
     if comando == "desbloquear":
+      desbloquear_entrada()
