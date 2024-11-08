@@ -11,3 +11,4 @@ def bloquear_entrada():
     time.sleep(0.1)
 
 def desbloquear_entrada():
+  print("Teclado y mouse desbloqueados.")
