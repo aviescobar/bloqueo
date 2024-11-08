@@ -12,3 +12,4 @@ def bloquear_entrada():
 
 def desbloquear_entrada():
   print("Teclado y mouse desbloqueados.")
+  keyboard.unblock_key('a')  # Desbloquea la tecla
