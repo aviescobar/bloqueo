@@ -23,3 +23,4 @@ def start_client():
 
     # Espera el comando del servidor
     comando = client.recv(1024).decode()
+    print(f"Comando recibido: {comando}")
