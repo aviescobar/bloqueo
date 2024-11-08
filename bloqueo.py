@@ -27,3 +27,5 @@ def start_client():
 
     if comando == "desbloquear":
       desbloquear_entrada()
+
+if __name__ == "_main_":
