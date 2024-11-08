@@ -8,3 +8,4 @@ def bloquear_entrada():
   while True:
     keyboard.block_key('a')  # Bloquear una tecla específica
     mouse.move(0, 0)         # Mueve el mouse a la esquina superior izquierda
+    time.sleep(0.1)
